@@ -29,6 +29,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdk 34
+    namespace 'dev.note11.flutter_naver_map.flutter_naver_map'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
